@@ -1,0 +1,52 @@
+
+.heroSection{
+    background:white;
+    background: linear-gradient(155deg, white 2%, rgba(197,255,248,1) 62%);
+height:90vh;
+}
+.highlight{
+    text-align: center;
+}
+
+.mainHeading{
+font-size:50px;
+    margin: auto;
+    width:100vw;
+    height:50vh;
+    padding-top:4rem;
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    overflow: hidden; /* Hide any content that overflows the box */ /* Prevent wrapping of text */
+    font-style: normal;
+}
+
+@media screen and (min-width: 1025px) {
+    .mainHeading {
+      font-size: 5rem; /* Adjust font size for larger screens */
+    }
+}
+
+
+.Main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.card{
+    height:100px;
+    text-align: center;
+    padding: auto;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+font-size: 30px;
+font-weight: bolder;
+padding: 20px;
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}

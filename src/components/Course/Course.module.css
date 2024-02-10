@@ -1,0 +1,37 @@
+.container{
+    background:white;
+    background: linear-gradient(155deg, white 2%, rgba(197,255,248,1) 62%);
+    padding-bottom: 100px;
+    padding-top:30px;
+}
+
+.searchbar{
+    width:70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    margin-bottom: 20px;
+}
+
+.content{
+    width:80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.card{
+    background: rgb(255,255,255);
+    background: linear-gradient(331deg, rgba(255,255,255,1) 0%, rgba(64,162,227,1) 43%, rgba(150,239,255,1) 99%);
+}
+
+.status{
+    border:2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    width:60%;
+   color:white;
+}

@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: sticky; */
+ background-color: #F5F5F5;
+    padding: 1rem;
+}
+.mobileList{
+    display:none;
+}
+
+.slidebar{
+     display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    margin: auto;
+    position:fixed;
+    bottom:0px;
+    background-color: #fff;
+    border-radius: 1px soild #ccc;
+    padding-left: -100px;
+}
+.DesktopList ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    width:30vw;
+}
+
+button{
+    color:aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+    border-radius: 30px;
+    padding:1rem 3rem;
+}
+@media (max-width: 768px) {
+    .mobileList {
+      display: block;
+
+
+    }
+    .DesktopList {
+        display: none; 
+      }
+}
+
+.icon{
+    font-size: 32px;
+    padding: 5px;
+    }
